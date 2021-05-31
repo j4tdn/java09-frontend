@@ -1,0 +1,27 @@
+@font-face{
+	font-family: "DEAREST";
+	src: url(../fonts/Chantelli_Antiqua-webfont.woff) format("woff"),
+		url(../fonts/Chantelli_Antiqua-webfont.ttf) format("truetype");
+}
+.header{
+	text-align: center;
+    background: beige;
+    font-size: 20px;
+    line-height: 2.5;
+}
+.text-style{
+	font-size: 18px;
+	font-style: italic;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: overline;
+}
+.size-30{
+	font-size: 30px;
+}
+p#block-1 {
+	font-family: DEAREST;
+}
+p#block-2 {
+	font-family: Poppins, sans-serif;
+}
