@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "my-font";
+    src: url(./fonts/Chantelli_Antiqua-webfont.woff) format("woff");
+}
+
+p {
+    font-family: "my-font";
+}
