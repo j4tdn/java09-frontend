@@ -1,0 +1,12 @@
+@font-face{
+	font-family: "CHANTELLI ANTIQUA";
+	src: url(../font/Chantelli_Antiqua-webfont.woff) format("woff"),
+		 url(../font/Chantelli_Antiqua-webfont.ttf) format("truetype");
+}
+/* selector */
+#block-1{
+	font-family: CHANTELLI ANTIQUA;
+}
+#block-2{
+	font-family: 'Squada One', cursive;
+}
