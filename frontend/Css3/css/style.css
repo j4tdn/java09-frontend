@@ -1,0 +1,29 @@
+@font-face{
+	font-family: "DEAREST";
+	src: url("../fonts/") format("woff"),
+		 url("../fonts/") format("truetype");
+}
+.text-style{
+	font-size: 18px;
+	font-style: italic;
+	font-family: initial;
+	font-weight: bold;
+	text=text-decoration: overline;
+
+}
+.size-30{
+	font-size: 30px;
+	text-align: center;
+    background: beige;
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+#block-1{
+	/*font*/
+	/*font-family: Tahoma,Geneva,sans-serif;*/
+	font-family: DEAREST;
+}
+#block-2{
+
+}
