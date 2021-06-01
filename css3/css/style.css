@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "Chantelli";
+	src: url("../fonts/Chantelli_Antiqua-webfont.woff") format("woff"),
+		 url("../fonts/Chantelli_Antiqua-webfont.ttf") format("truetype");
+}
+
+.header {
+    text-align: center;
+    background: beige;
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+p {
+    font-family: Chantelli;
+}
