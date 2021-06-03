@@ -1,0 +1,11 @@
+.left{
+	background: #2c2c27;
+	width: 67%;
+	height: 200px;
+	float: left;
+}
+.right{
+	background: #00FA9A;
+	height: 200px;
+
+}

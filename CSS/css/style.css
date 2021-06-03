@@ -10,3 +10,56 @@
 #block-2{
 	font-family: 'Squada One', cursive;
 }
+
+.block-3{
+	background: #00CED1;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 11px;
+}
+
+.art-title{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.clear-fix{
+	clear: both;
+}
+.bg-green{
+	background-color: darkcyan;
+}
+.size-30{
+	font-size: 30px;
+}
+h3{
+	text-transform: uppercase;
+}
+.color{
+	font-size: 39px;
+}
+
+.color-name {
+	color: red;
+}
+.color-rgb{
+	color: rgb(25,100,0);
+	background-color: rgb(128, 120, 120);
+}
+.color-hexa{
+	color: #FF00FF;
+}
+
+.ul-items{
+	list-style-type: square;
+	list-style-position: outside;
+	list-style-image: url(../images/world.png);
+}
+
+.ol-items {
+	list-style-type: upper-alpha;
+	list-style-position: inside;
+	list-style-image: url(../images/world.png);
+}
