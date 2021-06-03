@@ -14,3 +14,58 @@
 p {
     font-family: Chantelli;
 }
+
+.font{
+    font-size: 30px;
+}
+
+.color-rgb{
+    color: rgb(255,0,0);
+}
+
+.color-hex{
+    color: #FF0000;
+}
+
+.list-style{
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url(../images/world.png);
+}
+
+.block-1{
+    height: 250px;
+    width: 20%;
+    background-color: aqua;
+    float: left;
+}
+
+.block-3{
+    clear: both;
+}
+
+.left{
+    height: 400px;
+    width: 67%;
+    background-color: #FF0000;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.right{
+    height: 400px;
+    width: 33%;
+    float: right;
+    background-color: #00FF00;
+}
+
+.border{
+    clear: both;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 0 auto;
+}
