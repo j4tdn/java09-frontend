@@ -1,0 +1,73 @@
+@font-face{
+	font-family: "DEAREST";
+	src:url(../font/Dearest-webfont.woff) format("woff"),
+		url(../font/Dearest-webfont.ttf) format("truetype");
+}
+
+/*Selector*/
+#block-1 {
+	/*font fallback*/
+	font-family: Tahoma, Geneva, Sans-serif;
+	font-family: DEAREST;
+}
+
+
+#block-2{
+ font-family: Roboto, cursive;
+}
+
+.size-30{
+	font-size: 30px;
+}
+
+.text-style{
+	font-size: 18px;
+	font-style: italic;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: overline;
+}
+h3{
+	text-transform: uppercase;
+}
+.color{
+	font-size: 30;
+}
+#color-name{
+	color: red;
+}
+#color-rgb{
+	color: rgb(124, 2, 3);
+	background-color: rgb(128, 128, 128);
+}
+#color-hexa{
+	color: #00000FF;
+}
+.ul-Items{
+	list-style-type: none;
+/*	list-style-type: square;
+	list-style-position: outside;
+	list-style-image:url(../images/world.png) ;*/
+}
+.ol-Items
+{
+	list-style-type: upper-alpha;
+	list-style-position: inside;
+	list-style-image:url(../images/world.png) ;
+}
+.block-3
+{
+	background: rgb(128, 128, 111);
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.clearfix{
+	clear: both;
+}
+.art-title{
+	text-transform: uppercase;
+	text-decoration: underline;
+}

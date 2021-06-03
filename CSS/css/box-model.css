@@ -1,0 +1,23 @@
+div
+{
+	height: 200px;
+	width: 200px;
+}
+.plt-5px{
+
+padding-left: 5px;
+box-sizing: border-box;
+}
+#block-1
+{
+background: white;
+border: 5px solid blue;
+margin-left: 10px;
+margin-right: 10px;
+}
+#block-2
+{
+background: teal;
+border: 5px solid hotpink;
+margin: 20px 30px;
+}
