@@ -1,0 +1,20 @@
+div{
+	width: 200px;
+	height: 200px;
+}
+.ptl-5px{
+	padding-left: 5px;
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+#block-1{
+    background: seashell;
+	border: 5px solid blue;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#block-2{
+	background: palegreen;
+    border: 5px solid black;
+    margin: 20px 30px;
+}
