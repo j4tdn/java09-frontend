@@ -19,9 +19,54 @@
 .size-30{
 	font-size: 30px;
 }
+.bg-green{
+	background-color: darkcyan;
+}
 p#block-1 {
 	font-family: DEAREST;
 }
 p#block-2 {
 	font-family: Poppins, sans-serif;
+}
+.block-3{
+	background: #00CED1;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.clearfix{
+	clear: both;
+}
+.art-title{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+h3{
+	text-transform: uppercase;
+}
+.color{
+	font-size: 32px;
+}
+#color-name{
+	color:red;
+}
+#color-rgb{
+	color: rgb(128,255,0);
+	background: rgb(128,128,128);
+}
+#color-hexa{
+	color: #0000FF;
+}
+.ul-items{
+	list-style-type: none;
+	/*list-style-type: square;
+	list-style-position: outside;
+	list-style-image: url(../images/world.png);*/
+}
+.ol-items{
+	list-style-type: upper-alpha;
+	list-style-position: inside;
+	list-style-image: url(../images/world.png);
 }
