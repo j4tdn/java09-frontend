@@ -8,6 +8,11 @@
     background: beige;
     font-size: 20px;
     line-height: 2.5;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 .text-style{
 	font-size: 18px;
@@ -15,6 +20,8 @@
 	font-family: Arial;
 	font-weight: bold;
 	text-decoration: overline;
+
+	margin-top: 100px;
 }
 .size-30{
 	font-size: 30px;
