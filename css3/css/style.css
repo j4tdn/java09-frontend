@@ -4,11 +4,57 @@
 		 url("../fonts/Chantelli_Antiqua-webfont.ttf") format("truetype");
 }
 
-.header {
+.header-1{
     text-align: center;
     background: beige;
     font-size: 20px;
     line-height: 2.5;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+.parent{
+    border: #00FF00 1px solid;
+    width: 80%;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.block-a{
+    width: 200px;
+    height: 200px;
+}
+
+.gradient{
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(252,244,242,1) 50%,rgba(41,137,216,1) 50%,rgba(15,2,6,1) 50%,rgba(25,24,25,1) 100%);
+}
+
+.block--1{
+    background-color: #00FF00;
+    
+}
+.block--2{
+    background-color: #FF0000;
+    position: relative;
+    margin-top: 20px;
+}
+.block--3{
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+}
+
+.block{
+    background-color: #00FF00;
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/lemon.png);
+    background-size: 100% 100%;
 }
 
 p {
