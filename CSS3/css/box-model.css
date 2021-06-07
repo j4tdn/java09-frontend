@@ -4,6 +4,16 @@
 	padding-top: 5px;
 	box-sizing: border-box;	
 }
+.block {
+	width: 100%;
+	height: 600px;
+	background-color: #7FFFD4;
+	background-image: url(../images/lemon.png);
+	background-size: 100% 100%;	
+
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 
 #block-1 {
 	background: seashell;
@@ -19,8 +29,8 @@
 	margin: 20px 30px;
 
 }
-
+/*
 div {
 	width: 200px;
 	height: 200px;
-}
+}*/
