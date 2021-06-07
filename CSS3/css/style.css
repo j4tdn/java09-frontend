@@ -16,8 +16,35 @@
  font-family: Roboto, cursive;
 }
 
-.size-30{
-	font-size: 30px;
+.block-3 {
+	background-color: #00ce21;
+	width: 200px;
+	height: 200px;	
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.art-title{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.header{
+	text-align: center;
+	background-color: beige;
+	font-size: 20px;
+	line-height: 2.5;
+	width: 100%;	
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin-top: 0;
 }
 
 .text-style{
@@ -27,3 +54,53 @@
 	font-weight: bold;
 	text-decoration: overline;
 }
+
+.size-30{
+	font-size: 30px;
+}
+
+.bg-green{
+	background-color: darkcyan;
+}
+
+.text-style{
+	font-size: 18px;
+	font-style: italic;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: overline;
+}
+
+.h3 {
+	text-transform: uppercase;
+}
+
+.color{
+	font-size: 32px;
+}
+
+#color-name{
+	color: red;
+}
+
+#color-rgb{
+	color: rgb(0,255,0);
+	background-color: rgb(128,128,128);
+}
+
+#color-hexa{
+	color: #00F;
+}
+
+.ul-items{
+	list-style-type: square;
+	list-style-position: outside;
+	list-style-image: url("../images/world.png");
+}
+
+.ol-items{
+	list-style-type: upper-alpha;
+	list-style-position: inside;
+	list-style-image: url("../images/world.png");
+}
+
