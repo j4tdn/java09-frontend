@@ -1,0 +1,43 @@
+.circles1{
+	border-radius: 50%;
+	background-color: green;
+	position: relative;
+	z-index: 3;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 82px;
+
+}
+.circles2{
+	border-radius: 50%;
+	position: absolute;
+	left: 160px;
+	bottom: 200px;
+
+	position: relative;
+	background-color: blue;
+	z-index: 2;
+	font-size: 36px;
+}
+.parent{
+	width: 1120px;
+	height: 600px;
+	border: 1px solid green;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+
+.wh200 {
+	width: 200px;
+	height: 200px;
+}
+.block1{
+	background-color: orange;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.block2{
+	background-color: green;
