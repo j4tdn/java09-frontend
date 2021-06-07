@@ -11,7 +11,17 @@
 	font-family: DEAREST;
 }
 
-
+.header{
+	text-align: center;
+	background: beige;
+	font-size: 20px;
+	line-height: 2.5;
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin-top: 0;
+	width: 100%;
+}
 #block-2{
  font-family: Roboto, cursive;
 }

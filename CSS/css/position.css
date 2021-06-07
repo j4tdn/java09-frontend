@@ -1,0 +1,40 @@
+.wh200
+{height: 200px;
+	width: 200px;
+}
+.circle-1{
+	border-radius: 50%;
+	background-color|:green;
+	z-index: 3;
+	position: relative;
+}
+.circle-2{
+	border-radius: 50%;
+	left: 160px;
+	bottom: 200px;
+	position: absolute;
+	background-color: blue;
+	z-index: 2;
+	position: relative;
+}
+.parent{
+	width: 1120px;
+	height: 600px;
+	border: 1px solid green;
+	margin: 0 auto;
+	position: relative;
+}
+.child{
+	width: 200px;
+	height: 200px;
+}
+.block-1{
+	background-color: orange;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.block-2{
+	background-color: green;
+
+}
