@@ -3,6 +3,11 @@
 	src: url(../font/Chantelli_Antiqua-webfont.woff) format("woff"),
 		 url(../font/Chantelli_Antiqua-webfont.ttf) format("truetype");
 }
+.header{
+	position: fixed;
+	
+}
+
 /* selector */
 #block-1{
 	font-family: CHANTELLI ANTIQUA;
