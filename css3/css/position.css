@@ -1,0 +1,53 @@
+div {
+  width: 200px;
+  height: 160px;
+}
+.block-1 {
+  background-color: blanchedalmond;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.block-2 {
+  background-color: burlywood;
+  /* position: relative; */
+  /* top: 10px;
+  left: 15px; */
+}
+
+.parent {
+  width: 1120px;
+  height: 600px;
+  background-color: cadetblue;
+  border: 1px solid yellowgreen;
+  position: relative;
+}
+.child {
+  width: 200px;
+  height: 200px;
+}
+.circle-1 {
+  border-radius: 50%;
+  background-color: yellow;
+  position: relative;
+  z-index: 3;
+  opacity: 0.2;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.circle-2 {
+  border-radius: 50%;
+  background-color: yellowgreen;
+  position: relative;
+  left: 160px;
+  bottom: 200px;
+  z-index: 1;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
