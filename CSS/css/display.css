@@ -1,0 +1,26 @@
+.main-back {
+	width: 100px;
+	height: 500px;
+	background: linear-gradient(
+		135deg, 
+		rgba(255,255,255,1) 0%,
+		rgba(255,255,255,1) 50%,
+		rgba(0,0,0,1) 50%,
+		rgba(0,0,0,1) 100%
+		); 
+
+}
+/*div {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+.block-1{
+	background-color: orange;
+}
+.block-2{
+	background-color: green;
+}
+.block-3{
+	background-color: blue;
+}*/

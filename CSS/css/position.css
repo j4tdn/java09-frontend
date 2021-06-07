@@ -1,0 +1,60 @@
+div {
+	width: 200px;
+	height: 160px;
+}
+
+.circle-1{
+	border-radius: 50%;
+	background-color: green;
+	position: relative;
+	z-index: 3;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 82px;
+	box-sizing: border-box;
+}
+.circle-2{
+	border-radius: 50%;
+	position: absolute;
+	left: 170;
+	
+	bottom: 200px;
+	background-color: blue;
+	z-index: 2;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 82px;
+	box-sizing: border-box;
+
+}
+
+
+.block-2{
+	background-color: green;
+	position: relative;
+	left: 40px;
+	top: 10px;
+
+}
+.block-3{
+	background-color: blue;
+
+}
+.block-1{
+	background-color: orange;
+	position: absolute	;
+	top: 50px;
+	left: 50px;
+}
+.parent {
+	width: 1120px;
+	height: 600px;
+	border: 1px solid green;
+	margin:0 auto;
+	position: relative;
+}
+.wh200 {
+	width: 200px;
+	height: 200px;
+
+}
