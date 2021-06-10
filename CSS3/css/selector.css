@@ -1,0 +1,12 @@
+ul li a{
+	background: yellow;
+	text-decoration: none;
+}
+
+ol>li>a{
+
+}
+
+.random{
+	text-transform: uppercase;
+}
