@@ -1,0 +1,17 @@
+ul li a {
+	background: yellow;
+	text-decoration: none;
+}
+ol>li>a{
+	background: #1111;
+}
+h2.upsize{
+	text-transform: uppercase;
+}
+h1 + p {
+	color: red;
+}
+input[type=text]{
+	box-shadow: inset 0 0 1px 1px green;
+	border:1px solid green;
+}

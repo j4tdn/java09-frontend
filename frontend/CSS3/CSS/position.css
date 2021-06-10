@@ -1,0 +1,38 @@
+.parent{
+    width: 1120px;
+    height: 600px;
+    border: 1px solid red;
+    margin: 0 auto;
+    position: relative;
+}
+.wh200 {
+    width: 200px;
+    height: 160px;
+}
+
+.circle-1{
+    border-radius: 50%;
+    position: absolute;
+    background-color: blue;
+    z-index: 3;
+}
+
+.circle-2{
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    background-color: yellow;
+    bottom: 200px;
+    left: 160px;
+    z-index: 2;
+}
+
+.block-1 {
+    position: relative;
+    background-color: orange;
+}
+
+.block-2 {
+    position: relative;
+    background-color: green;
+}
