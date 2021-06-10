@@ -1,0 +1,22 @@
+ul li a{
+	background: yellow;
+	text-decoration: none;
+}
+ol>li>a{
+	background: orange;
+}
+h2.upsize{
+	font-size: 100px;
+}
+h1~p{
+color: red;
+}
+/*Attribute selector*/
+input[type=text]
+{
+	box-shadow: inset 5px 5px green;
+}
+a[href^https]
+{
+	text-decoration: none;
+}

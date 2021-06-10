@@ -1,0 +1,55 @@
+p:not(:hover){
+color: red;
+}
+/*p:first-child{
+	color: red;
+}
+p:last-child{
+	color: blue;
+}
+p:nth-child(even)
+{
+	color: red;
+}
+p:nth-of-type(even)
+{
+	background: yellow;
+}*/
+/*==============Form*/
+/*input[type=text]:focus
+{
+	box-shadow: inset 0 0 2px green;
+}
+input[type=checkbox]:checked + label
+{
+color: green;
+}
+input[type=email]:valid{
+	background: yellow;
+}
+input[type=email]:invalid{
+	background: red;
+	color: white;
+}
+input[type=submit]
+{
+	padding: 5px 10px;
+	margin-top: 20px;
+}*/
+/*====Link====*/
+/*a{
+	color: green;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}*/
+/*a:link{
+	text-decoration: none;
+}
+a:active{
+	background: green;
+}
+a:visited{
+	background: yellow;
+}*/
