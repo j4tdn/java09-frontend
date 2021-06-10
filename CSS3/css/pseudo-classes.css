@@ -1,0 +1,85 @@
+/*==============others================*/
+
+p:not(:hover){
+	color: red;
+}
+/*==============position================*/
+/*p:first-child{
+	color: red;
+}
+/*first of p
+p:last-child{
+	color: blue;
+}
+
+p:nth-child(even){
+color: red;
+}
+/*first of p and parent
+p:nth-child{
+color: red;
+}
+ 
+p:nth-of-type(even){
+background: yellow;
+}
+p:last-child{
+	color: red;
+}
+*/
+
+
+
+
+/*==============Form================*/
+/*input[type=text]:focus{
+	box-shadow: inset 0 0 2px  green;
+}
+input[type=checkbox]:checked + label {
+	color: green;
+
+}
+input[type=email]:valid{
+	background: yellow;
+	color: black;
+}
+input[type=email]:invalid{
+    background: red;
+	color: white;
+}
+input[type=submit]{
+	padding-top: 20px;
+	padding: 5px 10px;
+}
+input[type=submit]:enabled{
+	background: green;
+
+}
+input[type=submit]:disabled{
+	background: lightgrey;
+
+}
+
+
+
+
+/*==============Links================*/
+/*a{
+	color: #4caf50;
+	text-decoration: none;
+
+}
+a:hover{
+	text-decoration: underline;
+}
+/*a:link{
+	text-decoration: : none;
+
+}
+a:active{
+	background: orange;
+}
+a:visited{
+	background: red;
+}
+*/

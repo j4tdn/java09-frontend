@@ -1,0 +1,26 @@
+ul li a{
+	background: yellow;
+}
+ol>li>a{
+	background: orange;
+}
+h2.upsize{
+	text-transform: uppercase;
+	font-size: 60px;
+}
+p.upsize{
+	text-transform:  uppercase;
+	font-size: 60px;
+
+}
+h1+p{
+	color: red;
+}
+/*attribute selector*/
+input[type=text]{
+	box-shadow: inset 0 0 1px 1px green;
+	border: 1px solid grey;
+}
+a[href ^= https]{
+	text-decoration: none;
+}

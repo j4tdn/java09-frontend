@@ -1,0 +1,96 @@
+.art-title {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+@font-face{
+	font-family: "DEAREST";
+	src:url(../font/Dearest-webfont.woff) format("woff"),
+		url(../font/Dearest-webfont.ttf) format("truetype");
+}
+.header{
+	text-align: center;
+	background: beige;
+	font-size: 20px;
+	line-height: 2.5;
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin-top: 
+
+
+}
+
+.bg-green {
+	background: darkcyan;
+}
+
+/*Selector*/
+#block-1 {
+	/*font fallback*/
+	font-family: Tahoma, Geneva, Sans-serif;
+	font-family: DEAREST;
+}
+
+
+#block-2{
+ font-family: Roboto, cursive;
+}
+
+.block-3 {
+	background: #00CED1;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.detail {
+	clear: both;
+}
+
+h3{
+	text-transform: uppercase;
+}
+
+#color-name {
+	color: red;
+}
+
+#color-rgb {
+	color: rgb(0,255,0);
+}
+
+#color-hexa {
+	color: #0000FF;
+}
+
+.clearfix {
+	clear: both;
+}
+.ul-items {
+/*	list-style-type: none; */
+	list-style-type: square;
+	list-style-position: outside;
+	list-style-image: url(../images/world.png);
+}
+
+.ol-items {
+	list-style-type: upper-alpha;
+	list-style-position: inside;
+	list-style-image: url(../images/world.png);
+}
+
+.size-30{
+	font-size: 30px;
+}
+
+.text-style{
+	font-size: 18px;
+	font-style: italic;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: overline;
+}
+
