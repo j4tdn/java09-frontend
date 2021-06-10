@@ -1,0 +1,44 @@
+/* form */
+input[type=text]:focus{
+    box-shadow: inset 0 0 2px #333;
+}
+
+input[type=checkbox]:checked + label{
+    color: blue;
+}
+
+input[type=email]:valid{
+    color: red;
+}
+
+input[type=email]:invalid{
+    color: green;
+}
+input[type=submit]:enabled{
+    background: red;
+}
+
+input[type=submit]:disabled{
+    background: green;
+}
+
+p:not(:hover){
+    color: aqua;
+}
+
+
+
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    background: yellow;
+    color: aqua;
+}
+
+a:active{
+    background: orangered;
+}
+

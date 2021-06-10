@@ -1,0 +1,15 @@
+ul li a {
+    background-color: aqua;
+}
+
+h2.upsize{
+    color: aqua;
+}
+
+input[type = text]{
+    border: 3px solid red;
+}
+
+a[href ^= https]{
+    text-decoration: none;
+}
