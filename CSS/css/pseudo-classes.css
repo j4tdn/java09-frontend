@@ -1,0 +1,79 @@
+/*=============Other=============*/
+p:not(hover){
+	color: red;
+}
+
+
+/*=============Position=============*/
+/*p:first-child{
+	color: red;
+}
+
+p:last-child{
+	color: blue;
+}
+
+p:nth-child(-n+3){
+	color: red;
+}*/
+/*p:first-of-type{
+	background: yellow;
+}
+p:first-child{
+	color: red;
+}*/
+/*p:nth-child(even){
+	color: red;
+}
+p:nth-of-type(even){
+	background: yellow;
+}*/
+
+
+/*=============Form=============*/
+/*input[type=text]:focus{
+	box-shadow: inset 0 0 1px green;
+}
+input[type=checkbox]:checked + label{
+	color: green;
+}
+input[type=email]:valid{
+	background: white;
+}
+input[type=email]:invalid{
+	background: red;
+}
+
+input[type=submit]{
+	margin-top: 20px;
+	padding: 5px 10px;
+}
+input[type=submit]:enabled{
+	background: green;
+}
+input[type=submit]:disabled{
+	background: grey;
+}*/
+
+/*=============Link=============*/
+/*a{
+	color: #4caf50;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+
+a:link{
+	text-decoration: none;
+
+}
+
+a.active{
+	background: grey;
+}
+
+a:visited{
+	background: red;
+}
