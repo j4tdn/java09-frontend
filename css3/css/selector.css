@@ -1,0 +1,25 @@
+ul li a {
+  background-color: yellow;
+  text-decoration: none;
+}
+ol a {
+  background-color: yellowgreen;
+}
+h2.random {
+  text-transform: uppercase;
+  font-size: 60px;
+}
+p.random {
+  font-size: 40px;
+}
+h1 ~ p {
+  color: red;
+}
+/* selector attribute */
+input[type="text"] {
+  box-shadow: inset 0 0 2px 2px green;
+  border: 1px solid black;
+}
+a[href^="https"] {
+  text-decoration: none;
+}

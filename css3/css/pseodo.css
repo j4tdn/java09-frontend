@@ -1,0 +1,63 @@
+/* a:link {
+  text-decoration: none;
+} */
+/* a {
+  color: #4caf50;
+} */
+/* style for color */
+/* a:visited {
+  color: rgb(28, 248, 76);
+}
+a:active {
+  background-color: violet;
+}
+a:hover {
+  text-decoration: underline;
+} */
+/* input[type="text"]:focus {
+  box-shadow: 0 0 2px 2px green;
+}
+input[type="checkbox"]:checked + lable {
+  color: green;
+}
+input[type="email"]:valid {
+  color: green;
+}
+input[type="email"]:invalid {
+  color: red;
+}
+
+input[type="submit"]:enabled {
+  padding: 5px 20px;
+  background-color: blueviolet;
+}
+
+input[type="submit"]:disabled {
+  padding: 5px 20px;
+  background-color: red;
+} */
+/* fisst child in parent*/
+/* p:first-child {
+  color: red;
+}
+p:last-child {
+  color: rgb(0, 4, 255);
+} */
+/*an+b  -n+3*/
+/* p:nth-child(2n + 2) {
+  color: rgb(0, 4, 255);
+} */
+/* p:first-of-type {
+  color: red;
+}
+p:last-of-type {
+  color: rgb(0, 4, 255);
+}
+
+p:nth-of-type() {
+  color: rgb(0, 4, 255);
+} */
+
+p:not(:hover) {
+  color: red;
+}
