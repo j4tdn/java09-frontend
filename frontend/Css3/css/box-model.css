@@ -4,6 +4,8 @@
 	background-color: #7FFFD4;
 	background-image: url(../images/lemon.png);
 	background-size: 25% 300px;
+	background-repeat: repeat;
+	background-position: center center;
 }
 
 
