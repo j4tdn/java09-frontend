@@ -31,3 +31,24 @@ input[type = text] {
 a[href ^= https] {
 	text-decoration: none;
 }
+
+/*pseudo - element */
+/* p::before {
+ 	content: "-- before p tag --"
+ }*/
+
+/* p::after {
+ 	content: "-- after p tag --";
+ }*/
+
+ div.contact-us>p::before {
+ 	content: "-- before p tag --";
+ }
+ div.contact-us>p::after {
+ 	content: "";
+ 	display: block;
+ 	width: 30px;
+ 	height: 3px;
+ 	background: red;
+ 	margin-top: 10px;
+ }
