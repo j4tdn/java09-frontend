@@ -1,0 +1,29 @@
+div {
+	font-size: 30px;
+	color: #fff;
+
+	width: 200px;
+	height: 200px;
+	border: 1px solid grey;
+	background-color: #ec7fd4;
+
+	margin: 20px 50px;
+
+	text-align: center;
+	padding-top: 85px;
+	box-sizing: border-box;
+
+	
+}
+
+
+.container{
+	transition: transform 6s cubic-bezier(.29,-1.01,1,-0.68);
+				width: 2s linear,
+				background 4s cubic-bezier(.29,-1.01,1,-0.68);
+}
+.container:hover {
+	transform: rotate(360deg);
+	width: 400px;
+	background: linear-gradient(135deg, rgba(235,241,246,1) 0%,rgba(178,52,14,1) 26%,rgba(84,142,127,1) 51%,rgba(104,91,107,1) 80%);
+}

@@ -1,4 +1,20 @@
+/*PSEUDO - ELEMENT*/
+div.contact-us>P::before{
+	content: "";
+	display: block;
+	width: 45px;
+	height: 2px;
+	background: #f00;
+	margin: 10px;
+}
+div.contact-us>P::after{
+	content: "Thanks for contact us";
+	display: block;
+}
+
+/*selector-css*/
 ul a {
+
 	background: yellow;
 	text-decoration: none;
 }
