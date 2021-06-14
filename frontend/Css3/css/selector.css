@@ -1,3 +1,21 @@
+/*pseudo - elements*/
+
+div.contact-us>p::before{
+	content: '--Before P tag--';
+}
+div.contact-us>p::after{
+	content: '';
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: #f00;
+    margin-top: 10px;
+}
+
+/*css - selectors*/
+
+
+
 ul li a{
 	background-color: yellow;
 	text-decoration: none;

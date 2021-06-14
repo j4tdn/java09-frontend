@@ -1,3 +1,10 @@
+
+/*=========other===========*/
+p:notfirst-child{
+	color: red;
+}
+
+
 /*=========Position===========*/
 
 /*p:first-child{
@@ -12,14 +19,19 @@ p:last-child{
 	color: red;
 }
 */
-p:first-child{
+/*p:first-child{
 	color: red;
 }
 p:first-of-type{
 	background: yellow;
+}*/
+/*p:nth-child(even){
+	text-decoration: underline;
 }
-
-
+p:nth-of-type(even){
+	background: yellow;
+}
+*/
 /*=========form===========*/
 /*input[type=text]:focus{
 	box-shadow: inset 0 0 2px green;
