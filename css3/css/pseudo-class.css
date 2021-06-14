@@ -26,6 +26,31 @@ p:not(:hover){
     color: aqua;
 }
 
+.notification{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    transition: transform linear 6s,
+                background-color 4s linear,
+                cursor 2s linear;
+    top: 30px;
+    
+}
+/* .notification::before{
+    content: '';
+    display: block;
+    background-color: aqua;
+    border: 50px solid;
+    border-color: transparent transparent #333 transparent;
+} */
+
+.notification:hover{
+    background-color: blue;
+    transform: scale(0.5);
+    cursor: pointer;
+}
+
 
 
 
