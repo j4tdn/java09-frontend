@@ -1,0 +1,23 @@
+div {
+	font-size: 30px;
+	/*background: linear-gradient(135deg, rgba(235,241,246,1) 0%,rgba(178,52,14,1) 26%,rgba(84,142,127,1) 51%,rgba(104,91,107,1) 80%);*/
+	width: 200px;
+	height: 200px;
+	color: #fff;
+	border: 1px solid grey;
+	margin: 20px  50px;
+	box-sizing: border-box;
+	padding-top: 85px;
+	text-align: center;
+	background-color: #ec7fd4;
+	/*background:linear-gradient(135deg, rgba(235,241,246,1) 0%,rgba(178,52,14,1) 26%,rgba(84,142,127,1) 51%,rgba(104,91,107,1) 80%); ;*/
+}
+.container {
+		/*transform: scale(2 , 2) rotate(90deg);*/
+	transition: transform 6s cubic-bezier(.29, 1.01, 1, -0.68);;
+	width: 	2s linear;
+}
+.container:hover 	{
+	transform: rotate(350deg);
+	width: 400px;
+}

@@ -1,3 +1,22 @@
+
+
+/*
+	pseud0 - element
+*/
+div.contact>p::before{
+	content: '--Before P tag --';
+
+}	
+div.contact>p::after{
+	content: '';
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: #f00;
+    margin-top: 10px;
+}
+
+/* Css-selector */
 ul li a {
 	background: yellow;
 	text-decoration: none;
