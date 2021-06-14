@@ -1,3 +1,17 @@
+/*pseudo-elements*/
+p::before{
+	content: "--Before P tag--";
+}
+/*content: '';
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: #f00;
+    margin-top: 10px;*/
+p::after{
+	content: "--After P--";
+}
+
 ul li a{
 	background: yellow;
 	text-decoration: none;

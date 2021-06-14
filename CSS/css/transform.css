@@ -1,0 +1,24 @@
+
+div
+{
+	font-size: 30px;
+	background: yellow;
+	color: #fff;
+	width: 200px;
+	height: 200px;
+	margin: 20px 50px;
+	text-align: center;
+	padding-top: 85px;
+	box-sizing: border-box;
+	background: linear-gradient(135deg, 
+		rgba(235,241,246,1) 0%,
+		rgba(178,52,14,1) 26%,
+		rgba(84,142,127,1) 51%,
+		rgba(104,91,107,1) 80%);
+}
+.container
+{
+}
+.container:hover{
+	transform: skew(20deg,0);
+}
