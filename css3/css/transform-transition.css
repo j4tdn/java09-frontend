@@ -1,0 +1,26 @@
+div {
+  font-size: 30px;
+  background-color: aquamarine;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  margin: 20px 50px;
+  border: 1px solid gray;
+  text-align: center;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+.container:hover {
+  transform: rotate(90deg);
+  width: 400px;
+  background: linear-gradient(
+    135deg,
+    rgba(235, 241, 246, 1) 0%,
+    rgba(178, 52, 14, 1) 26%,
+    rgba(84, 142, 127, 1) 51%,
+    rgba(104, 91, 107, 1) 80%
+  );
+}
+.container {
+  transition: transform 2s 3s linear width 2s linear;
+}

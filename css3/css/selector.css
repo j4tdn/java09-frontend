@@ -23,3 +23,16 @@ input[type="text"] {
 a[href^="https"] {
   text-decoration: none;
 }
+.contact-us > p::before {
+  content: "before";
+  display: block;
+}
+
+.contact-us > p::after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 2px;
+  background: #f00;
+  margin-top: 10px;
+}
