@@ -1,4 +1,17 @@
-ul a{
+/*pseudo - elements*/
+div.contact-us>p::before{
+	content: '--Before P tag--';
+	display: block;
+}
+div.contact-us>p::after{
+	content: '';
+	display: block;
+	width: 46px;
+	height: 2px;
+	background: #f00;
+	margin-top: 10px;
+}
+ul li a{
 	background: yellow;
 	text-decoration: none;
 }

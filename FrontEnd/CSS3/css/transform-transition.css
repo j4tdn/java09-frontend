@@ -1,0 +1,27 @@
+div{
+	font-size: 30px;
+	background-color: #ec7fd4;
+	color: #fff;
+
+	width: 200px;
+	height: 200px;
+	border: 1px solid grey;
+	background-color: #ec7fd4;
+
+	margin: 20px 50px; 
+	text-align: center;
+	padding-top: 85px;
+	box-sizing: border-box;
+
+	background: -webkit-linear-gradient(top, #ebf1f6 0%,#d8bd9c 31%,#d33815 47%,#89c3eb 59%,#89c3eb 59%,#7e73a0 69%,#abd3ee 77%,#abd3ee 77%,#d5ebfb 100%);;
+}
+.container{
+	transition: transform 3s cubic-bezier(.29, 1.01, 1, -0.68),
+	width: 2s linear,
+	background 4s cubic-bezier(.10, 2.01, 1, -2.68);
+}
+.container:hover{
+	transform: rotate(360deg);
+	width: 400px;
+
+}
