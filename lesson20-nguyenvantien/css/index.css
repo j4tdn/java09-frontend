@@ -61,7 +61,7 @@ header{
 .main__title{
     height: 681px;
     /* width: 100%; */
-    background-image: url('/images/banner.png');
+    background-image: url('../images/banner.png');
     background-repeat: no-repeat;
     background-size: contain;
     color: white;
