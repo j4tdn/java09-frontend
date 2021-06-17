@@ -1,0 +1,175 @@
+a {
+	display: block;
+	padding: 8px;
+	margin-top: 8px;
+	margin-left: 50px;
+	background-color: black;
+	color: white
+}
+
+.background {
+	top: 30px;
+	background: url("images/banner.png");
+	width: 100%;
+	height: 600px;
+}
+
+.body {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient(
+		105deg, 
+		rgba(255,255,255,1) 0%,
+		rgba(255,255,255,1) 50%,
+		rgba(0,0,0,0.9) 50%,
+		rgba(0,0,0,0.9) 100%); 
+}
+
+.body-child1{
+	width: 30%;
+	height: 700px;
+	float: left;
+
+	color: black;
+	text-align: justify;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+.body-child2{
+	width: 30%;
+	height: 700px;
+	text-align: justify;
+	padding-top: 50px;
+	margin-left: 300px;
+	color: white;
+	display: inline-block;
+}
+
+.body>.body-child1>h2::after {
+	content: "";
+	display: block;
+	top: 5px;
+	width: 50px;
+	height: 2px;
+	background: red;
+	margin-top: 10px;
+}
+
+.body>.body-child2>h2::after {
+	content: "";
+	display: block;
+	top: 5px;
+	width: 50px;
+	height: 2px;
+	background: red;
+	margin-top: 10px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+.footer-child1 {
+	width: 20%;
+	height: 100%;
+	margin-left: 10%;
+	float: left;
+}
+
+.footer-child2 {
+	width: 20%;
+	height: 100px;
+	display: inline-block;
+}
+
+.footer-child3 {
+	width: 20%;
+	height: 100px;
+	display: inline-block;
+}
+
+h5::after {
+	content: "";
+	display: block;
+	width: 150px;
+	height: 1px;
+	margin-top: 10px;
+	background: white;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 250px;
+	color: white;
+}
+
+h4 {
+	color: white;
+	text-align: center;
+}
+
+.navigation {
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin-top: 0;
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 50px;
+}
+
+.learn-more {
+	background-color: red;
+	color: white;
+	text-align: center;
+	size: 30px;
+	width: 120px;
+	height: 20px;
+	margin-left: 45%;
+}
+
+.learn-more:hover {
+	background-color: black;
+}
+
+.ul-navigation>li {
+	float: left;
+}
+
+li a:hover {
+	background-color: grey;
+}
+
+.style1 {
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.style2 {
+	font-size: 14px;
+}
+
+.ul-navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 30%;
+}
+
+.ul-footer {
+	list-style-type: none;
+	font-size: 15px;
+	margin: 0;
+	margin-top: 2px;
+	padding: 0;
+}
+
