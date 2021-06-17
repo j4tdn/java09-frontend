@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+.container ul li a{
+    text-decoration: none;
+}
+header {
+    height: 81px;
+    
+    background-color: #1d2126;
+}
+
+header .container h1{
+line-height: 81px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+header .container ul li {
+    display: inline-block;
+    line-height: 81px;
+
+}
+header .container ul li a {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 50px;
+    margin-left: 16px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #a4aead;
+    border: 2px solid transparent;
+    font-size: 14px;
+}
+#hero  {
+    background-image: url(../images/banner.png);
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #45475d;
+    margin: 0px auto;
+    position: relative;
+}
+#hero .container h2 ,
+#hero .container p,
+#hero .container div {
+    max-width: 585px;
+}
+.center { 
+   position: absolute;
+    margin: 245px auto 0px 370px;
+
+}
+#hero .center h2 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#hero .center p {
+    color: white;
+    margin: 15px 0px 15px 147px;
+}
+#hero .center div {
+    display: inline-block;
+    width: 145px;
+    height: 40px;
+    background-color: red;
+    margin: 0px 24px 0px 210px;
+
+
+}
+#hero .center div a{
+    text-decoration: none;
+    color: white;
+    margin: auto auto;
+    margin: 10px 0px 10px 20px;
+    display: block;
+
+}
+#sport-car {
+    display: flex;
+   background: linear-gradient(
+    95deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 0, 0, 0.788) 50%,   
+    rgba(0, 0, 0, 0.712) 100%
+
+  );
+}
+#sport-car .container div {
+    display: inline-block;
+       margin: 0px 0px 0px 150px;
+width: 402px;
+
+}
+.mid {
+   display: inline-block;
+    margin-left: 9px;
+    margin: 5px;
+
+    
+}
+#sport-car .container div h3{
+  margin: 0px 1px 20px 0px;
+
+    
+}
+#sport-car .container div h4{
+    margin: 0px 1px 20px 0px;
+}
+#sport-car .container div p{
+    
+    }
+
+.mid h3::after {
+  content: "";
+  display: block;
+  width: 178px;
+  height: 2px;
+  background: rgb(124, 121, 121);
+  margin-top: 15px;
+}
+.container .mid h3::after{
+    content: "";
+  display: block;
+  width: 178px;
+  height: 2px;
+  background: rgb(124, 121, 121);
+  margin-top: 15px;
+} 
+.container .mid-2 h3::after     {
+     content: "";
+     display: block;
+      width: 178px;
+     height: 2px;
+     background: rgb(124, 121, 121);
+     margin-top: 15px;
+    }
+ .container .mid-2{
+    color: white;
+
+ }   
+footer{
+    background-color:black ;
+    height: 178px;
+    width: 100%;
+    margin: 0 auto
+    
+
+}
+footer .container ul li{
+    text-decoration: none;
+    color: white;
+}
+footer .footers {
+    display: flex;
+}
+footer .footers ul li{
+  
+    display: inline;
+    width: 227px
+}
+footer .container ul{
+   
+        padding: 22px 17px 16px 0px;
+}
