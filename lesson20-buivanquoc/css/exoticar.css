@@ -1,0 +1,153 @@
+body {
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+}
+
+.header__inner {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu__link a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.background {
+    position: relative;
+    max-height: 600px;
+    max-width: 100%;
+}
+
+.body__exoticar {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: -webkit-linear-gradient(rgb(16 15 15), rgba(135, 60, 255, 0.0) 0%), -webkit-linear-gradient(352deg, rgb(247 247 247) 50%, rgb(26 26 26) 50%);
+}
+
+.body__left {
+    float: left;
+    margin-left: 4%;
+    position: absolute;
+    width: 41%;
+    height: 100%;
+}
+
+.body__left h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.body__right {
+    float: left;
+    margin-left: 57%;
+    position: absolute;
+    width: 41%;
+    height: 100%;
+    color: white;
+}
+
+.body__right h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.text__item {
+    position: absolute;
+    bottom: 300px;
+    margin: 0 auto;
+    color: aliceblue;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#text__item1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#text__item2 {
+    font-size: 30px;
+    opacity: 0.5;
+    margin-bottom: -38px;
+}
+
+#text__item3 {
+    background: red;
+    height: 38px;
+    width: 110px;
+    margin-bottom: -98px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer__inner {
+    color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 250px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.2;
+}
+
+.footer__item {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.footer__title {
+    text-transform: uppercase;
+}
+
+.footer__list {
+    padding-left: 0;
+    list-style: none;
+}
+
+#footer__list4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.fab {
+    margin-left: 15px;
+}
