@@ -1,0 +1,217 @@
+/*==================CSS reset===================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*================BASE STYLE===================*/
+body{
+	color: #fff;
+	font-size:16px;
+	line-height: 22.4px;
+	font-family: Helvetica Neue;
+}
+/*================HEADER===================*/
+.page-header{
+	height: 66px;
+	width: 100%;
+	background: #181713;
+/*break the normal page structure*/
+	position:  absolute;
+	top: 0;
+	left: 0;
+}
+.wrapper{
+	width: 1120px;
+	height: 100%;
+	margin: 0 auto;
+
+}
+.page-header .logo{
+	float: left;
+	padding-top: 21px; /*vertical center*/
+} 
+.page-header .main-nav{
+	line-height: 66px;
+	float: right;
+
+}
+.page-header .main-nav ul li{
+	display: inline-block;
+	margin-left: 86px;
+}
+.page-header .main-nav ul li a{
+	text-transform: uppercase;
+	text-decoration:none;
+	color: inherit;
+	}
+	/*================BANNER===================*/
+.banner{
+	background-image: url(../images/banner.png);
+	height: 620px;
+	background-size: cover;
+
+	padding-top: 240px;
+	box-sizing: border-box;
+
+
+}
+.banner .banner-block{
+	text-align: center;
+
+}
+.banner .banner-block .title{
+	text-transform: uppercase;
+	font-size: 60px;
+
+}
+.banner .banner-block .subtitle{
+	margin: 20px 0 20px;
+
+}
+.banner .banner-block .learn-more{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: red;
+	display: inline-block;
+	width: 166px;
+	height: 46px;
+	line-height: 46px;
+
+
+}
+/*================articles===================*/
+.articles {
+		background: rgb(255,255,255); /* Old browsers */
+		background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-5deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(0,0,0,1) 50%,rgba(0,0,0,1) 50%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(95deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(0,0,0,1) 50%,rgba(0,0,0,1)100%);
+padding-top: 64px;
+
+}
+.articles::after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.articles article{
+	width: 50%;
+	float: left;	
+}
+article:first-of-type{
+	color: #000;
+	padding-right: 112px;
+	box-sizing: border-box;
+}
+article:last-of-type{
+	padding-left: 112px;
+	box-sizing: border-box;
+}
+.wrapper h2{
+	font-size: 40px;
+	font-family: Helvetica Neue;
+}
+.wrapper h2::after: {
+	content:'';
+	display:block;
+	height: 2px;
+	width: 27px;
+	margin-top: 50px;
+	background-color: red;
+}
+
+.qoute{
+	padding-top: 55px;
+	padding-bottom:28px; 
+	font-size: 20px;
+	font-family: Helvetica Neue;
+	font-style: italic;
+}
+.text{
+	font-size: 12px;
+	font-family: Helvetica Neue;
+	padding-bottom: 22px;
+
+}
+
+.page-footer{
+	height: 180px;
+	width: 100%;
+	background: #181713; 
+	margin: 0 auto;
+	
+}
+.footer{
+	padding-top: 25px;
+	padding-bottom: 15px;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.title{
+	font-size: 14px;
+	font-family: Helvetica Neue;
+	padding-bottom: 15px; 
+}
+.footer title::after{
+	content:'';
+	display:block;
+	height: 2px;
+	width: 180px;
+	margin-top: 15px;
+	background-color: grey;
+}
+.list li{
+	font-size: 14px;
+	font-family: Helvetica Neue;
+	color: #fcfff4;
+	padding-bottom:5px;
+
+}
+.footerimage{
+	float: left;
+}
+.img{
+	width: 45px;
+	height: 45px;
+	padding-left:15px;
+}
