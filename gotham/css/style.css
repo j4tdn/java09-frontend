@@ -1,0 +1,212 @@
+/* ============================= */
+/* CSS Reset =================== */
+/* ============================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+}
+/* ============================= */
+@font-face {
+	font-family: Roboto;
+	src: url('../fonts/Roboto-Regular.woff') format('woff'),
+		 url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: Roboto;
+	src: url('../fonts/Roboto-Light.woff') format('woff'),
+		 url('../fonts/Roboto-Light.ttf') format('truetype');
+	font-weight: 300;
+}
+@font-face {
+	font-family: Proxima;
+	src: url('../fonts/ProximaNova-Light.woff') format('woff'),
+		 url('../fonts/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 300;
+}
+@font-face {
+	font-family: Proxima;
+	src: url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		 url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: Proxima;
+	src: url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		 url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+body {
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+/* BASE */
+body {
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: Roboto;
+}
+
+.wrapper {
+	width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+	background: #f6c61c;
+	height: 62px;
+	width: 100%;
+	
+}
+
+.header-page {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav ul {
+	display: flex;
+	list-style: none;
+	column-gap: 50px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* MAIN */
+.main {
+	margin-top: 20px;
+}
+
+.contain {
+	display: flex;
+	width: 100%;
+	/* column-gap: 20px; */
+}
+
+.contain-left {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	background-color: aquamarine;
+	row-gap: 30px;
+}
+
+.contain-left-notice {
+	display: flex;
+	column-gap: 20px;
+	
+}
+
+.notice-title {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.notice-contain{
+	font-size: 15px;
+}
+
+.contain-right {
+	/* display: flex; */
+	flex-grow: 1;
+
+}
+
+.contain-right {
+	margin-left: 40px;
+}
+
+.fa-search{
+	content: '';
+	display: block;
+	height: 20px;
+	width: 30px;
+}
+
+.search {
+	border: 2px solid;
+	padding: 0 5px;
+	display: flex;
+	border-radius: 5px;
+}
+#search {
+	flex: 1;
+	border: 0;
+	
+}
+#search	:focus {
+	border: 0;
+}
+
+.btn-next-page {
+	/* display: flex; */
+	height: 50px;
+	width: 180px;
+	background: #999;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	/* justify-items: center; */
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+.footer {
+	display: flex;
+	background: #f6c61c;
+	height: 62px;
+	width: 100%;
+	font-size: 20px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer nav ul {
+	display: flex;
+	column-gap: 20px;
+}
+
