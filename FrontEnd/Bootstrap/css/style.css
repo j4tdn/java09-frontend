@@ -1,0 +1,25 @@
+div {
+	height: 100px;
+	background: #ffff00;
+	border: 1px solid #000;
+
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+}
+
+.container .row:nth-child(2) div{
+	background: #00ffff;
+}
+
+/*==========*/
+.parent {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	top: 320px;
+}
+.sub {
+	width: 100%
+	background: #e7e7e7;
+}
