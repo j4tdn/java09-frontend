@@ -1,0 +1,13 @@
+div{
+    height: 100px;
+    background: #ffff00;
+
+    border: 1px solid black;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.container .row:last-of-type div{
+    background: #00ffff;
+}
