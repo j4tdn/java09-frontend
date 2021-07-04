@@ -1,0 +1,11 @@
+div {
+	height: 100px;
+	background: #ffff00;
+	border: 1px solid #000;
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+}
+.container .row:nth-child(2) div{
+	background: #00ffff;
+}
