@@ -12,7 +12,7 @@ div {
 	background: #00ffff;
 }
 
-/*==========*/
+/*=====Apply flex=====*/
 .parent {
 	display: flex;
 	position: absolute;
