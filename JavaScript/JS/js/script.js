@@ -133,8 +133,86 @@
 // }, 1000);
 // console.log(intervel);
 
-let months = ['March','April','May','June'];
-months.unshift('January','Feburary');
-months.push("July");
-months.splice(2, 0, 'new months');
-console.log(months);
+// Array.prototype.isert = function(idx, item) {
+//      this.splice(idx, 0, item);
+// };
+
+// Array.prototype.remove = function(idx) {
+//      this.splice(idx, 1);
+// };
+
+// let months = ['March','April','May','June'];
+
+// months.unshift('January','Feburary');
+// months.push("July");
+// months.isert(2, 'new months');
+
+// months.shift();
+// months.pop();
+
+// months.remove(0);
+
+// let months = [1,2,3,4,5,6]; 
+
+// console.log(months.filter(month => month<3));
+// console.log(months.every(month => month <5));
+
+//  months.forEach((month, idx) => console.log(idx + ': '+ month));
+// 	months.forEach(function(month, idx){
+// 	console.log(idx + ': '+ month);
+// } );
+
+// let person={
+// 	fristName:'Daniel',
+// 	lastName: 'Turk',
+// 	age     :28,
+// 	sex 	:'male',
+// 	greetz	:function() {
+// 		console.log(`hello. my name is ${this.fristName}`);
+
+// 	}
+// }
+// 	console.log(person); 
+// 	person.greetz();
+
+// let tag = document.querySelectorAll("p:nth-of-type(1)");
+// console.dir(tag);
+// let items = document.querySelector(".items");
+// let item = document.createElement("li");
+
+// item.textContent = 'task 3';
+
+// items.appendChild(item);
+
+// let first =items.children[0];
+
+// item.textContent='text 4';
+// items.insertBefore(item, first);
+
+// let btn =document.querySelector(".btn");
+
+// btn.onclick = function() {
+// 	console.log('you have clicked me');
+// }
+// btn.addEventListener('click',function()  {
+// 	console.log('click1');
+// })
+// btn.addEventListener('click',function() {
+// 	console.log('click2');
+// })
+// btn.onmouseover =function(){
+// 	this.style.color='red';
+// }
+// btn.onmouseout = function(){
+// 	this.style.color='black';
+// }
+let tag = document.querySelector("input");
+
+// tag.addEventListener('keyup',function(){
+// 	console.log(tag.value);
+// });
+tag.addEventListener('keypress',function(event){
+	if(event.which===13){
+		console.log(tag.value);
+	}
+});
